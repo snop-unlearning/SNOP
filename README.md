@@ -17,7 +17,6 @@ SNOP is an unlearning algorithm that allows for the removal of specific data poi
     - Use `snop.py` to perform unlearning with the SNOP method on the saved VAE model.
     - Use the other scripts for specific unlearning methods: SSD, Gradient Ascent/Descent, Retain on Finetune, and retrain from scratch.
 
-
 ## Directory Structure
 ```
 ├── CIFAR
@@ -40,3 +39,5 @@ SNOP is an unlearning algorithm that allows for the removal of specific data poi
     └── vae_utils.py
 ```
 
+## Note
+    - To change the percentage of data used for forgetting and as retain set, change the variables `retain_train_fraction` and `forget_train_fraction` everywhere.
