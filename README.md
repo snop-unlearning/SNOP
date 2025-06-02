@@ -40,4 +40,4 @@ SNOP is an unlearning algorithm that allows for the removal of specific data poi
 ```
 
 ## Note
-    - To change the percentage of data used for forgetting and as retain set, change the variables `retain_train_fraction` and `forget_train_fraction` everywhere.
+- To change the percentage of data used for forgetting and as retain set, change the variables `retain_train_fraction` and `forget_train_fraction` everywhere.
